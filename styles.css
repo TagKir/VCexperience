@@ -1,0 +1,121 @@
+body {
+  background-color: wheat;
+  font-family: "Open Sans", sans;
+  text-align: center;
+}
+h2 {
+  font-size: 35px;
+  width: 100%;
+}
+h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+/* Header */
+header h1 {
+  font-size: 70px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.logo {
+  justify-content: center;
+  width: 6.5%;
+}
+header ul {
+  display: inline-flex;
+  list-style-type: none;
+  padding-left: 0px;
+}
+header ul li {
+  margin: 0 15px;
+  font-size: 26px;
+}
+header ul li a {
+  color: black;
+}
+
+/* Main */
+.mission {
+  background-image: url("images/photo-1524046997286-863495b9638e.jpg");
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.apple {
+  display: flex;
+  position: relative;
+  top: 198px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: wheat;
+  opacity: 0.9;
+}
+.apple h2,
+.apple h3 {
+  margin: 12px 0;
+}
+
+/* figure {
+  display: inline-block;
+  margin: 0 15px;
+}
+figure img {
+  width: 300px;
+  height: 180px;
+}
+figcaption {
+  font-size: 35px;
+}*/
+/*
+.fig {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-content: center;
+}
+figure img {
+  width: 300px;
+  height: 180px;
+}
+figcaption {
+  font-size: 35px;
+}
+*/
+.fig {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+figure img {
+  width: 300px;
+  height: 180px;
+}
+figcaption {
+  font-size: 35px;
+}
+
+.team .persons {
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: end;
+
+  background-image: url("images/Apple-Campus-Apple-Park-Cupertino-291.jpg");
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 450px;
+}
+.team .persons article {
+  margin: 0;
+  color: white;
+}
+.team .person img {
+  width: 200px;
+}
+/* осталось сделать  opacity и footer */
+/* Footer */
